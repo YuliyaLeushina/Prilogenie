@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Личные данные</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230525115527">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<a href="" class="header__logo"><span>TimeTo</span> </a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+
+						<ul class="menu__list">
+							<li class="menu__item"><a href="home.html" class="menu__link">Главная</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Почему Time To</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Партнерам</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+
+						</ul>
+					</nav>
+					<div class="menu-overlay">
+
+						<ul class="menu__list nav">
+							<li class="menu__item">
+								<a href="cash.html" class="menu__link">
+									<picture><source srcset="img/wallet.webp" type="image/webp"><img src="img/wallet.png" alt="lorem"></picture>
+									Кошелек
+									<span>0 руб</span>
+								</a>
+							</li>
+							<li class="menu__item"><a href="" class="menu__link"><picture><source srcset="img/coupon.webp" type="image/webp"><img src="img/coupon.png" alt="lorem"></picture>Promo</a></li>
+							<li class="menu__item"><a href="person.html" class="menu__link">
+									<picture><source srcset="img/user-data.webp" type="image/webp"><img src="img/user-data.png" alt="lorem"></picture>
+									Личные данные
+								</a></li>
+							<li class="menu__item"><a href="status.html" class="menu__link">
+									<picture><source srcset="img/history.webp" type="image/webp"><img src="img/history.png" alt="lorem"></picture>
+									История / Статус</a></li>
+							<li class="menu__item"><a href="" class="menu__link">
+									<picture><source srcset="img/solution.webp" type="image/webp"><img src="img/solution.png" alt="lorem"></picture>
+									Ваши идеи</a>
+							</li>
+							<li class="menu__item"><a href="" class="menu__link">
+									<picture><source srcset="img/help.webp" type="image/webp"><img src="img/help.png" alt="lorem"></picture>
+									FAQ's</a>
+							</li>
+							<li class="menu__item"><a href="" class="menu__link">
+									<picture><source srcset="img/mail.webp" type="image/webp"><img src="img/mail.png" alt="lorem"></picture>
+									Свяжитесь с нами</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="header__actions">
+					<a href="open.html" class="header__link">
+						<picture><source srcset="img/user.webp" type="image/webp"><img src="img/user.png" alt="Вход в личный кабинет"></picture>
+						<span>Личный кабинет</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="person">
+				<div class="person__container">
+					<a href="home.html" class="person__header-link">⟵
+						<span>Личные данные</span>
+					</a>
+					<div class="person__bode">
+						<h1 class="person__title">
+							Привет, <span class="person__name">Юрий</span>
+						</h1>
+						<p class="person__note">Здесь Ваши настройки и личные данные</p>
+						<div class="person__cash cash">
+							<div class="cash__inner">
+								<h3 class="cash__title">Ваш TimeTo кошелек</h3>
+								<div class="cash__body">
+									<span class="cash__sum">0 Руб</span>
+									<a href="" class="cash__link-donate">
+										Нажмите и получите бонус
+									</a>
+								</div>
+
+							</div>
+						</div>
+						<form action="" class="person__form person-form">
+							<div class="person-form__body">
+								<div class="person-form__item">
+									<input type="text" id="name">
+									<label for="name">Имя</label>
+								</div>
+								<div class="person-form__item">
+									<input type="text" id="lastname">
+									<label for="lastname">Фамилия</label>
+								</div>
+								<div class="person-form__item">
+									<input type="email" id="email">
+									<label for="email">Ваш e-mail</label>
+								</div>
+								<div class="person-form__item">
+									<input type="tel" id="tel">
+									<label for="tel">Ваш телефон</label>
+								</div>
+								<div class="person-form__item">
+									<select name="form[]" class="form">
+										<option value="1" selected>Профсоюзная 104 (Холл)</option>
+										<option value="2">Профсоюзная 105 (Холл)</option>
+										<option value="3">Профсоюзная 106 (Холл)</option>
+										<option value="4">Профсоюзная 107 (Холл)</option>
+									</select>
+									<p class="person-form__text">Адрес Вашего TimeTo</p>
+								</div>
+								<div class="person-form__item">
+									<select name="form[]" class="form">
+										<option value="1" selected>Русский</option>
+										<option value="2">English</option>
+										<option value="3">Italiano</option>
+									</select>
+									<p class="person-form__text">Язык</p>
+								</div>
+								<button type="submit" class="person-form__btn">Сохранить</button>
+								<a href="" class="person-form__link-delete">Удалить аккаунт</a>
+							</div>
+
+						</form>
+						<a href="" class="person__link-politic">Термины и политика конфиденциальности</a>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+					<h3 class="popup__title">Ручной пылесос</h3>
+					<p class="popup__coast">Стоимость аренды</p>
+					<h4 class="popup__sub-title">Как считаем?</h4>
+					<p class="popup__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore minima quidem modi voluptates necessitatibus nesciunt, debitis saepe recusandae aliquam! Inventore officiis nihil obcaecati aliquam deleniti, omnis doloribus, voluptatum quae ullam perspiciatis molestiae ipsam tenetur nisi quas vel est quibusdam. Repellat saepe magni dignissimos nisi, minus iste doloremque impedit, ullam cumque minima ipsa incidunt rem deserunt, illum exercitationem tempora itaque veritatis officiis natus quae reprehenderit harum adipisci quaerat! Eaque qui molestiae explicabo quis accusamus, consequuntur ut numquam doloremque ullam odio cumque!
+					</p>
+					<h4 class="popup__sub-title">Как произведем расчет?</h4>
+					<p class="popup__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati officia consectetur illo optio et corporis laboriosam nemo quos facilis, odit doloremque ratione, animi accusamus distinctio ducimus voluptatem incidunt est! Nam fugit pariatur tenetur error tempora dolor nemo rerum dolorum libero at distinctio, perferendis aliquid veritatis, voluptatem laudantium fugiat rem? Iste eius expedita reiciendis distinctio magnam libero. Aliquid assumenda reprehenderit laboriosam exercitationem iste! Nihil voluptate corrupti, vero voluptatum repellat quo recusandae quam eligendi veritatis quia, cum doloremque. Qui aliquam sequi quis, facilis porro saepe dolores reprehenderit accusantium repellendus tenetur fugit dicta ea accusamus dolor harum excepturi sint id esse nobis illum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-info" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+					<h3 class="popup__title">Инструкция</h3>
+					<ol>
+						<li>
+							<p class="popup__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel distinctio assumenda optio incidunt neque.</p>
+						</li>
+						<li>
+							<p class="popup__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel distinctio assumenda optio incidunt neque.</p>
+						</li>
+						<li>
+							<p class="popup__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel distinctio assumenda optio incidunt neque.</p>
+						</li>
+						<li>
+							<p class="popup__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel distinctio assumenda optio incidunt neque.</p>
+						</li>
+						<li>
+							<p class="popup__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel distinctio assumenda optio incidunt neque.</p>
+						</li>
+						<li>
+							<p class="popup__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel distinctio assumenda optio incidunt neque.</p>
+						</li>
+					</ol>
+					<a href="" class="popup__coast" download="">Скачать инструкцию</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="choose" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+					<a href class="popup__btn" data-popup="#choose">Начать пользоваться</a>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa accusantium numquam labore odit sequi, facilis tempora non cum earum corrupti!</p>
+					<br>
+					<br>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa accusantium numquam labore odit sequi, facilis tempora non cum earum corrupti!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="rating" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+
+					<p>Оцените сеанс пользования.</p>
+					<br>
+					<br>
+					<form>
+						<div class="rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">3.6</div>
+
+						</div>
+						<br>
+						<br>
+						<button type="submit" class="popup__btn">Оценить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="login" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+
+					<p>На указанный эл
+						адрес отправлена ссылка.
+						Перейдите по ней для
+						завершения регистрации</p>
+					<br>
+					<br>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="link" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+
+					<p>Адрес эл почты
+						подтвержден. Дождитесь
+						окончания модерации. После
+						ее завершения, на Ваш
+						номер телефона будет
+						выслано СМС со ссылкой на
+						начало пользования
+						сервисом. Это займет не
+						более 30 мин. </p>
+					<br>
+					<br>
+					<p>Добавить «Минимальная сумма
+						пополнения кошелька 600 руб.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230525115527"></script>
+</body>
+
+</html>
